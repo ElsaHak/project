@@ -9,7 +9,7 @@ export const setItem = (key, value) => {
 export const removeItem = (key) => {
     localStorage.removeItem(key);
 };
-// src/utils/storage.js
+
 export const getJobs = () => {
     return JSON.parse(localStorage.getItem('jobs')) || [];
 };
